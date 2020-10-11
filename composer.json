@@ -1,0 +1,16 @@
+{
+    "name": "adehikmat/sendemail",
+    "description": "sendemail",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "adehikmT",
+            "email": "aalolxyz@gmail.com"
+        }
+    ],
+    "require": {
+        "klein/klein": "^2.1",
+        "vlucas/phpdotenv": "^5.2"
+    }
+}
