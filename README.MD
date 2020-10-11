@@ -45,7 +45,7 @@ $php -S localhost:8000
 <table>
     <tr>
     <th>Method</th>
-    <th>Option</th>
+    <th>Auth</th>
     <th>URL</th>
     </tr>
     <tr>
