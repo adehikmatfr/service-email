@@ -1,6 +1,5 @@
 <?php
 
-
 class SendEmailController
 {
     function store($data)
@@ -23,6 +22,7 @@ class SendEmailController
         $row = $con[0]->query($query);
 
         if ($row->rowCount() > 0) {
+            RmQueue($email, $msg);
             return [true, 200, "pesan berhasil di kirim"];
         }
         return [false, 400, "pesan gagal di kirim"];
